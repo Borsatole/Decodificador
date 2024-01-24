@@ -23,8 +23,7 @@ body {
 
 .logo_alura {
    display: block;
-   padding: 24px 100% 24px 16px;
-   border: 1px solid black;
+   padding: 24px 0 24px 16px;
 }
 
 .alinhamento_input {
@@ -41,5 +40,34 @@ body {
 }
 
 .info_buttons {
+    
+    width: 100%;
     margin-top: 251px; 
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.buttons button {
+    width: 343px;
+    padding: 24px;
+}
+
+.saida_dados {
+    margin:64px 24px;
+    padding: 32px;
+    border-radius: 32px;
+    background-color: var(--cor_de_fundo_branco);
+    height: 186px;
+}
+
+.nao_encontrado {
+    
 }
