@@ -10,31 +10,41 @@
 </head>
 <body>
 
+    <header><img class="logo_alura" src="img/logo_alura.svg" alt="Logo da alura"></header>
+    <main>
+        <section class="input">
+            <textarea class="textarea" name="" id="text_area" cols="60" rows="8" placeholder="Digite seu texto">Teste</textarea>
 
-    <section class="entrada_de_dados">
-        <img class="logo_alura" src="img/logo_alura.svg" alt="">
 
-        <div class="alinhamento_input">
-        <input type="text" class="input_txt" placeholder="Digite seu texto"></div>
+            <div class="informacao_e_botao">
 
-        <div class="info_buttons">
-            <span>Apenas letras minúsculas e sem acento.</span>
+                <div class="informacao">
+                    <img src="img/icone_span.svg" alt="">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
 
-            <div class="buttons">
-            <button>Criptografar</button>
-            <button>Descriptografar</button></div>
-    </section>
+                <div class="buttons">
+                    <button class="criptografar">Criptografar</button>
+                    <button class="descriptografar">Descriptografar</button>
+                </div>
 
-    <section class="saida_dados">
+            </div>
 
-        <div class="nao_encontrado">
-            <h1>Nenhuma mensagem encontrada</h1>
-            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-        </div>
 
-    </section>
-    </div>
+        </section>
 
-    
+
+        <section class="output">
+
+            <div class="not-found">
+                <img src="img/pessoa_procurando.svg" alt="">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografar. </p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script/app.js"></script>
 </body>
 </html>

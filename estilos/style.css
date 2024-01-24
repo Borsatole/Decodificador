@@ -21,53 +21,110 @@ body {
     width: 100%;
 }
 
+header {
+    margin-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
 .logo_alura {
-   display: block;
-   padding: 24px 0 24px 16px;
+    width:32px; 
+    height:48px;
 }
 
-.alinhamento_input {
+main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+}
+
+.textarea {
+    background-color: transparent;
+    font-size: 2rem;
+    border: none;
+    color: var(--azul);
+    width: calc(100% - 2rem);
+    height: 320px;
+    outline: none;
+    resize:none;
+}
+
+.input {
+    margin-left: 2rem;
+}
+
+.input .informacao{
+    margin-top: 4rem;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
+    gap:3px;
 }
 
-.input_txt {
-    margin-top: 56px; 
-    width: 90%;
-    height: 48px;
+.informacao p {
+    font-size: 0.75rem;
+    color: #343a40;
 }
 
-.info_buttons {
+.input .buttons{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 2rem);
+}
+
+
+.input .buttons button {
+    margin-top: 1.0rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 1.5rem;
     
-    width: 100%;
-    margin-top: 251px; 
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+    
 }
 
-.buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.criptografar {
+    border: none;
+    background-color: var(--azul);
+    color: white;
 }
-
-.buttons button {
-    width: 343px;
-    padding: 24px;
-}
-
-.saida_dados {
-    margin:64px 24px;
-    padding: 32px;
-    border-radius: 32px;
+.descriptografar {
     background-color: var(--cor_de_fundo_branco);
-    height: 186px;
+    color: var(--azul);
+    border: 1px solid var(--azul);
 }
 
-.nao_encontrado {
-    
+.descriptografar:hover {
+    background-color: var(--cinza);
+    color: var(--azul);
+    border: 1px solid var(--azul);
 }
+
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.not-found {
+    justify-content: center;
+    height: 100%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    width: calc(100% - 4rem);
+    margin-top: 3.0rem;
+    margin-bottom: 4rem;
+}
+
+.not-found img {
+    display: none;
+}
+

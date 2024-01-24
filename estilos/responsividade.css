@@ -1,0 +1,39 @@
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1335px) {
+    main {
+        height: calc(100vh - 141px);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0rem;
+    }
+    .input {
+        display: flex;
+        margin-left: 2rem;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-evenly;
+    }
+
+    .not-found {
+        display: flex;
+    }
+
+    .not-found img {
+        display: flex;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
