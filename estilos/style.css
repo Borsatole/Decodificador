@@ -17,137 +17,29 @@
 }
 
 body {
-    
-    display: flex;
     background-color: var(--cor_de_fundo);
-    /* height: 100vh; */
-    margin: auto;
-    align-items: center;
+    width: 100%;
+}
+
+.logo_alura {
+   display: block;
+   padding: 24px 100% 24px 16px;
+   border: 1px solid black;
+}
+
+.alinhamento_input {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-}
-
-.entrada_de_dados {
-    
-    /* margin: auto; */
-    /* width: 1000px; */
-    height: 100%;
-}
-
-.entrada_de_dados .logo {
-    margin: 40px 0px 0px 40px;
-
-}
-
-.entrada_de_dados textarea {
-    background-color: transparent;
-    border: none;
-    outline-color: var(--azul);
-    margin: 168px 0px 100px 240px;
-    width: 680px;
-    height: 348px;
-    color: var(--azul);
-    font-size: 2rem;
-    resize: none;
-}
-
-.aviso img {
-    width:0.7rem;
-}
-
-section .aviso {
-    margin: 0px 0px 0px 240px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.6rem;
-    padding-bottom: 1rem;
-}
-
-.buttons {
-    margin: 0px 0px 0px 240px;
-    display: flex;
-    gap: 1.5rem;
-}
-
-section button {
-    cursor: pointer;
-    width: 328px;
-    border-radius: 24px;
-    padding: 24px;
-    border: none;
-    font-size: 1 rem;
-    box-shadow: 0px 2px 4px 2px #4e4e4e54;
-}
-
-section button:hover {
-    transition: 1s;
-    transform: scale(1.1)
-}
-
-section .btn_criptografar {
-    background-color: var(--azul);
-    color: white;
-}
-
-section .btn_descriptografar {
-    background-color: var(--cinza);
-    color:var(--azul);
-    border: 1px solid var(--azul);
-}
-
-
-.saida_dados {
-    display: flex;
-    height: calc(100vh - 40px);
-    width: 400px;
-    margin: 40px;
-    background-color: var(--cor_de_fundo_branco);
-    border-radius: 2rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0.5px 2px 7px 0px #6060606e;
-}
-
-.saida_dados h3 {
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 0.5rem;
-    margin-top: 2rem;
-    text-shadow: 1px 3px 2px #6060606e;
-}
-
-.saida_dados p {
-    text-align: center;
-    font-size: 1.0rem;
-    margin-top: 1.1 rem;
-}
-
-.saida_dados_tela_inicio {
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
-.saida_dados_tela_descriptgrafada {
-    display: none;
-    flex-direction: column;
-    align-items: center;
+.input_txt {
+    margin-top: 56px; 
+    width: 90%;
+    height: 48px;
 }
 
-.saida_dados_tela_descriptgrafada p {
-    border: 1px solid blue;
-    padding: 3px;
-    margin: 15px;
-    height: 575px;
-}
-
-.btn_copiar {
-    border: 1px solid blue;
-    display: block;
-    /* margin-top: calc(100% - 217px); */
-    background-color: var(--cor_de_fundo_branco);
-    color:var(--azul);
-    border: 1px solid var(--azul);
-
+.info_buttons {
+    margin-top: 251px; 
 }
