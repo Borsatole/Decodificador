@@ -20,7 +20,7 @@ body {
     
     display: flex;
     background-color: var(--cor_de_fundo);
-    height: 100vh;
+    /* height: 100vh; */
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@ body {
 .entrada_de_dados {
     
     /* margin: auto; */
-    width: 1000px;
+    /* width: 1000px; */
     height: 100%;
 }
 
@@ -47,6 +47,7 @@ body {
     height: 348px;
     color: var(--azul);
     font-size: 2rem;
+    resize: none;
 }
 
 .aviso img {
