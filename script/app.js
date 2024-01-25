@@ -8,22 +8,38 @@
 // A letra "u" é convertida para "ufat"
 
 
-
 function criptografar () {
-    
-    let escrita_usuario = document.getElementById('text_area').value;
-    let replaced = escrita_usuario.replace("a","ai").replace("e","enter").replace("i","imes").replace("o","ober").replace("u","ufat");
+    let textarea = document.getElementById('text_area')
 
-    escrita_usuario.value = '';
-    console.log (replaced);
+    let escrita_usuario = textarea.value;
+
+    if (escrita_usuario == "") {alert("Não há texto para criptografar")} else {
+
+    let criptografado = escrita_usuario.replace("i","imes").replace("a","ai").replace("e","enter").replace("o","ober").replace("u","ufat");
+
+    textarea.value = criptografado;
+    }
 }
 
 function descriptografar () {
-    
+
+    let textarea = document.getElementById('text_area')
     let escrita_usuario = document.getElementById('text_area').value;
-    let replaced = escrita_usuario.replace("ai","a").replace("enter","e").replace("imes","i").replace("ober","o").replace("ufat","u");
     
-    console.log (replaced);
+    if (escrita_usuario == "") {alert("Não há texto para descriptografar")} else {
+    let descriptografado = escrita_usuario.replace("ai","a").replace("enter","e").replace("imes","i").replace("ober","o").replace("ufat","u");
+    
+    textarea.value = descriptografado;
+    }
+}
+
+async function copiar () {
+    let textarea = document.getElementById('text_area')
+    let escrita_usuario = document.getElementById('text_area').value;
+    
+    await navigator.clipboard.writeText(escrita_usuario);
+    alert("Texto copiado");
+
 }
 
 
