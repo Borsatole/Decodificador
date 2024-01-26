@@ -9,12 +9,11 @@
 
 
 function criptografar () {
+    
     let textarea = document.getElementById('text_area')
-
     let escrita_usuario = textarea.value;
 
     if (escrita_usuario == "") {alert("Não há texto para criptografar")} else {
-
     let criptografado = escrita_usuario.replace("i","imes").replace("a","ai").replace("e","enter").replace("o","ober").replace("u","ufat");
 
     textarea.value = criptografado;
@@ -23,8 +22,8 @@ function criptografar () {
 
 function descriptografar () {
 
-    let textarea = document.getElementById('text_area')
-    let escrita_usuario = document.getElementById('text_area').value;
+    let textarea = document.getElementById('text_area');
+    let escrita_usuario = textarea.value ;
     
     if (escrita_usuario == "") {alert("Não há texto para descriptografar")} else {
     let descriptografado = escrita_usuario.replace("ai","a").replace("enter","e").replace("imes","i").replace("ober","o").replace("ufat","u");
