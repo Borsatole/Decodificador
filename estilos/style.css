@@ -129,3 +129,64 @@ main {
     display: none;
 }
 
+.github_link {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+    border: 1px solid var(--azul);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.github_link a {
+    color: var(--cor_de_fundo_branco);
+    text-decoration: none;
+    padding: 0px 30%;
+}
+
+.github_link a:hover {
+    text-decoration: underline;
+}
+
+.github_link {
+    color: var(--cor_de_fundo_branco);
+    background-color: var(--azul);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+
+.linguagens {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    padding: 10px;
+    font-size: 3.0rem;
+}
+
+.linguagens .bx {
+    padding: 5px;
+    background-color: rgb(235, 235, 235) 0%;
+    border-radius: 50%;
+}
+
+.linguagens .bx:hover {
+    transition: 1s;
+    padding: 5px;
+    background-color: rgba(215, 215, 255, 0.552);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.linguagens .bxl-html5 {
+    color: #E14E26;
+}
+
+.linguagens .bxl-css3 {
+    color: #0170BA;
+}
+
+.linguagens .bxl-javascript {
+    color: #D6BB32;
+}
