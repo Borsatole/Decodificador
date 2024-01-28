@@ -1,5 +1,6 @@
 # Decodificador
  Projeto Publicado: https://borsatole.github.io/Decodificador/
+ 
 O objetivo principal desse projeto é criptografar o texto digitado!
 
 A letra "e" é convertida para "enter"
