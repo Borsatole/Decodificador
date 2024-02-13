@@ -44,7 +44,6 @@ function fechar_modal_erro() {
 function abrir_modal_erro() {
     modal.style.display = "flex";
 }
-abrir_modal_erro()
 
 
 
