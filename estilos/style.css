@@ -190,3 +190,69 @@ main {
 .linguagens .bxl-javascript {
     color: #D6BB32;
 }
+
+#modal_erro {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.242);
+    height: 100vh;
+    width: 100vw;
+
+    
+}
+
+#modal_erro .caixabranca {
+    background-color: #fff;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#modal_erro .caixabranca .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#modal_erro .caixabranca .img_erro {
+    display: none;
+}
+
+#modal_erro .caixabranca h1 {
+    font-weight: 300;
+    line-height: 50px;
+}
+
+#modal_erro .caixabranca button {
+    margin-top: 1.0rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+
+}
+
+#modal_erro .caixabranca button:hover {
+    
+    background-color: var(--cinza);
+    color: var(--azul);
+
+}
+
+#modal_erro .caixabranca img {
+    width: 100%;
+    display: none;
+}

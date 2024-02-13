@@ -31,6 +31,21 @@
         max-width: 400px;
     }
 
+    #modal_erro .caixabranca h1 {
+        width: 80%;
+    }
+
+
+    #modal_erro .caixabranca .img_erro {
+        display: flex;
+        width: 50%;
+    } 
+
+    #modal_erro .caixabranca .img_erro img {
+        display: block;
+        max-width: 600px;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
