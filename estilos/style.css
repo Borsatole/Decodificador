@@ -213,7 +213,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
 
+@keyframes slidein {
+    from {
+        translate: 0px -1000px;
+      }
+
+    to {
+        opacity: 100;
+    }
 }
 
 #modal_erro .caixabranca .texto {

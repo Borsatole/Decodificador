@@ -31,6 +31,10 @@
         max-width: 400px;
     }
 
+    #modal_erro .caixabranca {
+        width: 70%;
+    }
+
     #modal_erro .caixabranca h1 {
         width: 80%;
     }
